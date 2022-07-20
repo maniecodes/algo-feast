@@ -21,6 +21,7 @@ var buildArray = function (nums) {
   return newArray;
 };
 
+buildArray([0, 2, 1, 5, 3, 4]);
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
