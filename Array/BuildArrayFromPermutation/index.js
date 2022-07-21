@@ -16,6 +16,8 @@ var buildArray = function (nums) {
   for (let i = 0; i < nums.length; i++) {//0(n)
     let value = nums[nums[i]]; // 0(1)
     newArray.push(value); // 0(1)
+    // newArray[i] = nums[nums[i]]; // 0(1)
+    
   }
 
   return newArray;
